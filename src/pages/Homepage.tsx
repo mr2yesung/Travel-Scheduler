@@ -1,5 +1,12 @@
+import PageNav from "../components/PageNav";
+
 function Homepage(): JSX.Element {
-  return <div>Travel Scheduler</div>;
+  return (
+    <div>
+      <PageNav />
+      <h1>Travel Scheduler</h1>
+    </div>
+  );
 }
 
 export default Homepage;
